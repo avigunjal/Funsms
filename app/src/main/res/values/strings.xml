@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Funsms</string>
+
+    <string-array name="category">
+        <item>annivarsary</item>
+        <item>attitude</item>
+        <item>bewafa</item>
+        <item>birthday</item>
+        <item>chritsmas</item>
+        <item>cid</item>
+        <item>dasara</item>
+        <item>diwali</item>
+        <item>double_meaning</item>
+        <item>eid</item>
+        <item>exam</item>
+        <item>flirting</item>
+        <item>friendshipday</item>
+        <item>goodmorning</item>
+        <item>goodnight</item>
+        <item>group_admin</item>
+        <item>independanceday</item>
+        <item>jokes</item>
+        <item>love</item>
+        <item>love_story</item>
+        <item>newyear</item>
+        <item>nonveg</item>
+        <item>pj</item>
+        <item>prapose</item>
+        <item>quotes</item>
+        <item>rajanikant</item>
+        <item>romantic</item>
+        <item>santa_banta</item>
+        <item>sardar</item>
+        <item>shayari</item>
+        <item>sorrysms</item>
+        <item>study_motivation</item>
+        <item>teachersday</item>
+        <item>valentineday</item>
+        <item>whatsapp_status</item>
+        <item>womanday</item>
+    </string-array>
+    <string-array name="category_list">
+        <item>anniversary</item>
+        <item>attitude</item>
+        <item>bewafa</item>
+        <item>birthday</item>
+        <item>christmas</item>
+        <item>cid</item>
+        <item>dasara</item>
+        <item> diwali</item>
+        <item> double meaning</item>
+        <item> eid</item>
+        <item> exam</item>
+        <item> flirting</item>
+        <item> friendship day</item>
+        <item> good morning</item>
+        <item> goodnight</item>
+        <item> group admin</item>
+        <item> independence day</item>
+        <item> jokes</item>
+        <item> love</item>
+        <item> love_story</item>
+        <item> new year</item>
+        <item> non veg</item>
+        <item> pj</item>
+        <item> propose</item>
+        <item> quotes</item>
+        <item> rajanikant</item>
+        <item> romantic</item>
+        <item> santa_banta</item>
+        <item> sardar</item>
+        <item> shayari</item>
+        <item> sorrysms</item>
+        <item> study motivation</item>
+        <item> teachersday</item>
+        <item>valentine</item>
+        <item> whatsapp status</item>
+        <item> womanday</item>
+    </string-array>
+</resources>

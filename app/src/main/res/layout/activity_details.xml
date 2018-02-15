@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="4dp">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:layout_gravity="bottom"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:paddingBottom="20dp"
+        android:paddingEnd="30dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingStart="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:elevation="20dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/cardback"
+        >
+        <ImageButton
+            android:id="@+id/sharefb"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fb"
+            android:background="@android:color/transparent"
+            />
+        <ImageButton
+            android:id="@+id/sharewhatsapp"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content"
+            android:src="@drawable/whatsapp"
+            android:background="@android:color/transparent"
+            />
+        <ImageButton
+            android:id="@+id/sharecopy"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content"
+            android:src="@drawable/copy"
+            android:background="@android:color/transparent"
+            />
+        <ImageButton
+            android:id="@+id/share"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content"
+            android:src="@drawable/share"
+            android:background="@android:color/transparent"
+            />
+    </LinearLayout>
+</LinearLayout>
