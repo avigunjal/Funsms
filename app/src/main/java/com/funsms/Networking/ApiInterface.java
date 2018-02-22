@@ -13,6 +13,6 @@ import retrofit2.http.Query;
 public interface ApiInterface {
 
     @POST("smsdata.php")
-    Call<Smsdata> SMSDATA_CALL(@Query("category") String category,@Query("lang") String lang);
+   <!--Api method-->
 
 }
