@@ -20,7 +20,7 @@ public class ShadowTransformer implements ViewPager.OnPageChangeListener, ViewPa
         mPosition = position;
     }
 
-    public void enableScaling(boolean enable) {
+   /* public void enableScaling(boolean enable) {
         if (mScalingEnabled && !enable) {
             // shrink main card
             CardView currentCard = mAdapter.getCardViewAt(mViewPager.getCurrentItem());
@@ -36,6 +36,7 @@ public class ShadowTransformer implements ViewPager.OnPageChangeListener, ViewPa
                 currentCard.animate().scaleX(1.1f);
             }
         }
+        */
 
         mScalingEnabled = enable;
     }
